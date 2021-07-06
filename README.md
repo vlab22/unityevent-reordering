@@ -2,6 +2,8 @@
 
 A simple editor extension to enable unityevent reordering (draggable) feature. I don't know why it is not a default setting.
 
+Tested with Unity 2020.3.5f1
+
 Just put the code inside an Editor folder
 
 ## [/Assets/Editor/**ReorderingUnityEventDrawer.cs**](https://github.com/vlab22/unityevent-reordering/blob/main/Assets/Editor/ReorderingUnityEventDrawer.cs)
