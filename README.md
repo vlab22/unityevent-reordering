@@ -1,6 +1,6 @@
 # unityevent-reordering
 
-A simple editor extension to enable unityevent reordering (draggable) feature
+A simple editor extension to enable unityevent reordering (draggable) feature. I don't know why it is not a default setting.
 
 Just put the code inside an Editor folder
 
