@@ -2,16 +2,13 @@ using UnityEditor;
 using UnityEditorInternal;
 using UnityEngine.Events;
 
-namespace Editor
+[CustomPropertyDrawer(typeof(UnityEventBase), true)]
+public class ReorderingUnityEventDrawer : UnityEventDrawer
 {
-    [CustomPropertyDrawer(typeof(UnityEventBase), true)]
-    public class ReorderingUnityEventDrawer : UnityEventDrawer
+    protected override void SetupReorderableList(ReorderableList list)
     {
-        protected override void SetupReorderableList(ReorderableList list)
-        {
-            base.SetupReorderableList(list);
+        base.SetupReorderableList(list);
 
-            list.draggable = true;
-        }
+        list.draggable = true;
     }
 }
